@@ -1,4 +1,6 @@
 # MSDS-Practicum-2
+
+## Billboard Hot 100 Music Analysis
 <img src="https://github.com/lcagney/MSDS-Practicum-2/blob/14dd78b6cd721746495373eec17ba6370aa1ed62/Images/WordCloud.png" width="600" height="350">
 Pictured: Billboard Hot 100 Artists over the years
 
@@ -23,6 +25,9 @@ The data was created by using SQL to combine two separate datasources. Rows that
 ## The Final Model
 The final model had an R<sup>2</sup> value of 77.7%, RMSE value of 9, and MAE of 6.4. 
 
+## Conclusion
+Music trends tend to come in cycles and are not necessarily contained to a specific timeline. The model was able to correctly predict the year within a couple years of the actual release year for more than half the test dataset. There are various factors that could cause a prediction to be off.
+
 ## Next Steps
 - Include genre once reducing cardinality, see if that addresses the residual plot
   - The genre could be the lurking variable causing a linear pattern for the residual polt  
@@ -30,5 +35,3 @@ The final model had an R<sup>2</sup> value of 77.7%, RMSE value of 9, and MAE of
   - The hypothesis I have is that re-released and cover versions of songs may skew a models ability to predict when a song came out.
 - Look at it from a derivation standpoint – who sounds like who? Or unsupervised clustering of artists
 
-
-## Conclusion
