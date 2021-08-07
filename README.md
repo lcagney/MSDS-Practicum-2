@@ -17,7 +17,7 @@ Pictured: Music attributes trend over time, separated by decade.
 - Data Files
   - final_dataset.csv : Cleaned and prepped dataset for the model
 - Tableau 
-  - Tableau workbook I exported visualizations out of.
+  - BillboardHot100.twbx: Tableau workbook I exported visualizations out of.
 
 ## Methods Used
 The data was created by using SQL to combine two separate datasources. Rows that were missing all of the spotify data and columns that were highly correlated with each other were dropped. Which LazyPredict, I determined that LGBM Regressor was the best model for this data to move forward with. I used GridSearchCV to tune the hyperparameters. 
