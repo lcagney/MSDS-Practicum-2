@@ -7,6 +7,9 @@ Pictured: Billboard Hot 100 Artists over the years
 ## Introduction
 This project looked at two datasets: Billboard Hot 100 chart data throughout the years and the spotify metadata associted to each of the songs on the charts. The question that this project sought to answer was: Can characteristics of a song be used to determine when the song appeared on the Billboard Hot 100 Chart? This project was done in Python.
 
+## Methods
+This project was primarily completed in Python using packages from scikit-learn and LightGBM to build a regression model. Tableau was used to explore some initial data and the datasets were combined with SQL.
+
 ## Files Included
 - Jupyter Notebooks
   - BB100_InitialDataExplorationProcessing: This notebook has the initial data load, exploration, and cleaning process. It exports a file out in the end to be used for the final model.
