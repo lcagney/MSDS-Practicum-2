@@ -17,3 +17,5 @@ This project looked at two datasets: Billboard Hot 100 chart data throughout the
   - BillboardHot100.twbx: Tableau workbook I exported visualizations out of.
 
 
+## References
+Dataset: https://data.world/kcmillersean/billboard-hot-100-1958-2017
