@@ -15,6 +15,7 @@ This project was primarily completed in Python using packages from scikit-learn 
   - BB100_InitialDataExplorationProcessing: This notebook has the initial data load, exploration, and cleaning process. It exports a file out in the end to be used for the final model.
   - BB100_Model: The LightGBM output.
 - Data Files
+  - BB100_fulldata.csv : raw dataset downloaded and combined from data.world
   - final_dataset.csv : Cleaned and prepped dataset for the model
 - Tableau 
   - BillboardHot100.twbx: Tableau workbook I exported visualizations out of.
