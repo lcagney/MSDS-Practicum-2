@@ -3,3 +3,7 @@ This final is the intial load, exploration, cleaning, and export of the data. It
 
 #### BB100_Model.ipynb
 The code for the final LGBM model output along with model output exploration.
+
+
+#### data_explore_output.html
+This is output from the Pandas Profiling package.
