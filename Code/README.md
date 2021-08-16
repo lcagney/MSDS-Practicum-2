@@ -8,4 +8,4 @@
 - The code to blend the two datasets from data.world together.
 
 #### data_explore_output.html
-- This is output from the Pandas Profiling package.
+- This is output from the Pandas Profiling package. Needs to be downloaded or re-run in the Jupyter notebook.
